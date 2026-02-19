@@ -1,4 +1,36 @@
 # Windows-11---Account---Email-validation-message-shown-in-Username-field-during-profile-update
 Unable to change Username 
-https://github.com/user-attachments/assets/8425d0ea-dfc9-42d1-b37a-59c1fb956c57
-![Image](https://github.com/user-attachments/assets/59902d3f-329a-4da1-be74-a9af812f0e19)
+
+
+### Environment:
+window-11
+
+
+### Steps to Reproduce:
+1. Open the website https://www.toolstation.com
+
+2. Click on Account
+
+3. Click Manage Account
+
+4. Click Edit on the account details section
+
+5. Edit Username field
+
+6. Click Save to update the details
+
+### Actual Result:
+
+After entering a username and attempting to save the changes, a validation message appears stating “Please include an ‘@’ in the email address”. The message is shown in the Username field, even though the input provided is not an email address and no changes were made to the email field.
+
+### Expected Result:
+
+The system should validate the username according to username rules only. Any validation message displayed should be relevant to the field being edited, allowing the user to clearly understand whether the username meets the required format and proceed with updating their details without confusion.
+### Bug Type:
+Functional
+
+### Frequency:
+Every time
+
+### priority:
+Medium 
