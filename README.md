@@ -3,7 +3,7 @@ Unable to change Username
 
 
 ### Environment:
-window-11
+windows-11
 
 
 ### Steps to Reproduce:
